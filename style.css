@@ -1,11 +1,38 @@
-:root {
-    /* CSS HEX */
-    --azul: #26547cff;
-    --vermelho: #ef476fff;
-    --amarelo: #ffd166ff;
-    --verde: #06d6a0ff;
+body{
+    background-color: rgb(226, 115, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: var(--verde);
+main{
+    margin: 20px 0;
+    text-align: center;
+    max-width: 90%;
+}
+
+button{
+    background-color: rgb(171, 22, 201);
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 5px;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+}
+button:hover{
+    background-color: black;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
 }
