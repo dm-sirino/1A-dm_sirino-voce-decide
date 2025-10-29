@@ -20,7 +20,7 @@ button{
     padding: 4px;
     border-radius: 10px;
     margin: 5px;
-    color: black;
+    color: rgb(211, 241, 73);
     box-shadow: 2px 2px 5px black;
 }
 button:hover{
