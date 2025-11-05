@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(226, 115, 208);
+    background-color: rgb(138, 131, 231);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,12 +15,12 @@ main{
 }
 
 button{
-    background-color: rgb(171, 22, 201);
+    background-color: rgb(88, 216, 233);
     font-size: 22px;
     padding: 4px;
     border-radius: 10px;
     margin: 5px;
-    color: rgb(211, 241, 73);
+    color: rgb(174, 83, 226);
     box-shadow: 2px 2px 5px black;
 }
 button:hover{
